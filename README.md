@@ -1,6 +1,6 @@
 # Data Structures and Algorithms Specialization
 
-## 1. [Algorithmic Toolbox](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/blob/master/AlgorithmicToolbox.md)
+## 1. [Algorithmic Toolbox](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/blob/master/AlgorithmicToolbox/AlgorithmicToolbox.md)
 
 - [Programming Assignment 1](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/tree/master/AlgorithmicToolbox/week1_programming_challenges): Maximum Pairwise Product
 - [Programming Assignment 2](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/tree/master/AlgorithmicToolbox/week2_algorithmic_warmup): Algorithmic Warm-up
