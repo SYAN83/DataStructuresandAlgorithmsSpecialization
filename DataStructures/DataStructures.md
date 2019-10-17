@@ -25,8 +25,8 @@
   
 - Programming Assignment 4: Binary Search Trees
 
-  1 Binary tree traversals: [tree-orders.py](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/blob/master/DataStructures/week4_binary_search_trees/1_tree_traversals/tree-orders.py)
-  2 Is it a binary search tree?: [is_bst.py](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/blob/master/DataStructures/week4_binary_search_trees/2_is_bst/is_bst.py)
-  3 Is it a binary search tree? Hard version: [is_bst_hard.py](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/blob/master/DataStructures/week4_binary_search_trees/3_is_bst_advanced/is_bst_hard.py)
-  4 Set with range sums:
-  5 Rope:
+  1. Binary tree traversals: [tree-orders.py](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/blob/master/DataStructures/week4_binary_search_trees/1_tree_traversals/tree-orders.py)
+  2. Is it a binary search tree?: [is_bst.py](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/blob/master/DataStructures/week4_binary_search_trees/2_is_bst/is_bst.py)
+  3. Is it a binary search tree? Hard version: [is_bst_hard.py](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/blob/master/DataStructures/week4_binary_search_trees/3_is_bst_advanced/is_bst_hard.py)
+  4. Set with range sums:
+  5. Rope:
