@@ -9,12 +9,12 @@
 - [Programming Assignment 5](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/tree/master/AlgorithmicToolbox/week5_dynamic_programming1): Dynamic Programming 1
 - [Programming Assignment 6](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/tree/master/AlgorithmicToolbox/week6_dynamic_programming2): Dynamic Programming 2
 
-## 2. Data Structures
+## 2. [Data Structures](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/blob/master/DataStructures/DataStructures.md)
 
-- Programming Assignment 1: Basic Data Structures
-- Programming Assignment 2: Priority Queues and Disjoint Sets
-- Programming Assignment 3: Hash Tables
-- Programming Assignment 4: Binary Search Trees
+- [Programming Assignment 1](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/tree/master/DataStructures/week1_basic_data_structures): Basic Data Structures
+- [Programming Assignment 2](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/tree/master/DataStructures/week2_priority_queues_and_disjoint_sets): Priority Queues and Disjoint Sets
+- [Programming Assignment 3](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/tree/master/DataStructures/week3_hash_tables): Hash Tables
+- [Programming Assignment 4](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/tree/master/DataStructures/week4_binary_search_trees): Binary Search Trees
 
 ## 3. Algorithms on Graphs
 
