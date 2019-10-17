@@ -3,17 +3,15 @@ import sys
 
 
 def get_optimal_value(capacity, weights, values):
-    order_items = sorted([v / w, v, w] for w, v in zip(weights, values))
-    weight = 0
-    value = 0
-    while order_items and weight < capacity:
-        p, v, w = order_items.pop()
-        if weight + w > capacity:
-            value += p * (capacity - weight)
-            break
-        else:
-            weight += w
+    value, weight = 0., capacity
+    loot = sorted(zip(weights, values), key=lambda x: x[0] / x[1])
+    for w, v in loot:
+        if weight > w:
             value += v
+            weight -= w
+        else:
+            value += weight * v / w
+            break
     return value
 
 

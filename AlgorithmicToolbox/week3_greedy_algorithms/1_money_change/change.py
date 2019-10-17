@@ -1,7 +1,6 @@
 # Uses python3
 import sys
 
-
 def get_change(m):
     count = 0
     for c in [10, 5]:

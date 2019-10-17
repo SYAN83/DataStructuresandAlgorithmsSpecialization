@@ -3,13 +3,10 @@ import sys
 
 
 def gcd_naive(a, b):
-    if b == 0:
-        return a
-    else:
-        return gcd_naive(b, a % b)
+    return gcd_naive(b, a % b) if b else a
 
 
 if __name__ == "__main__":
-    input_ = sys.stdin.read()
-    a, b = map(int, input_.split())
+    input = sys.stdin.read()
+    a, b = map(int, input.split())
     print(gcd_naive(a, b))

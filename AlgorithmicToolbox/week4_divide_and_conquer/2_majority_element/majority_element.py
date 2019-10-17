@@ -1,23 +1,31 @@
 # Uses python3
 import sys
-from collections import Counter
 
 
-def get_majority_element(a, left, right):
-    count = Counter(a)
-    return int(count.most_common(1)[0][1] > len(a) // 2)
-    # if left == right:
-    #     return -1
-    # if left + 1 == right:
-    #     return a[left]
-    # #write your code here
-    # return -1
+def get_majority_element(a):
+    # Boyer–Moore majority vote algorithm
+    maj_index, count = 0, 1
+    for i, x in enumerate(a):
+        if a[maj_index] == x:
+            count += 1
+        else:
+            count -= 1
+        if count == 0:
+            maj_index = i
+            count = 1
+    freq, k = 0, len(a) // 2
+    for x in a:
+        if x == a[maj_index]:
+            freq += 1
+        if freq > k:
+            return x
+    return -1
 
 
 if __name__ == '__main__':
     input = sys.stdin.read()
-    n, *a = list(map(int, input.split()))
-    if get_majority_element(a, 0, n):
+    _, *a = list(map(int, input.split()))
+    if get_majority_element(a) != -1:
         print(1)
     else:
         print(0)

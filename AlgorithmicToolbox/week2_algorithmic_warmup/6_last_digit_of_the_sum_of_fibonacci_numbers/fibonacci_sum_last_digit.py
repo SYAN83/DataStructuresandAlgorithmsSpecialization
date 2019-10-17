@@ -1,19 +1,21 @@
 # Uses python3
 import sys
 
+
+def fibonacci_last_digit_cumsum(k):
+    cumsum = [0, 1]
+    previous, current = 1, 2
+    while not (previous == cumsum[0] and current == cumsum[1]):
+        cumsum.append(cumsum[-1] + previous)
+        previous, current = current, (previous + current) % k
+    return cumsum
+
+
 def fibonacci_sum_naive(n):
-    if n <= 1:
-        return n
+    cumsum = fibonacci_last_digit_cumsum(10)
+    res = (n // len(cumsum)) * cumsum[-1] + cumsum[n % len(cumsum)]
+    return res % 10
 
-    previous = 0
-    current  = 1
-    sum      = 1
-
-    for _ in range(n - 1):
-        previous, current = current, previous + current
-        sum += current
-
-    return sum % 10
 
 if __name__ == '__main__':
     input = sys.stdin.read()

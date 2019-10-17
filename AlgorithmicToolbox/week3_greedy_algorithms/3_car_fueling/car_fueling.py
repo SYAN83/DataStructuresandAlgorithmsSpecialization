@@ -3,16 +3,15 @@ import sys
 
 
 def compute_min_refills(distance, tank, stops):
-    # write your code here
-    stops.append(distance)
-    refil, cap = 0, tank
-    for i in range(len(stops)-1):
-        if cap < stops[i]:
+    stops_ = stops + [distance]
+    refill, cap = 0, tank
+    for i in range(len(stops)):
+        if cap < stops_[i]:
             return -1
-        elif cap < stops[i+1]:
-            refil += 1
-            cap = stops[i] + tank
-    return -1 if cap < distance else refil
+        elif cap < stops_[i + 1]:
+            refill += 1
+            cap = stops_[i] + tank
+    return -1 if cap < distance else refill
 
 
 if __name__ == '__main__':

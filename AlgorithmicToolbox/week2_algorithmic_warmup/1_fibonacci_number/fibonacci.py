@@ -5,12 +5,13 @@ def calc_fib(n):
     if n < 2:
         return n
     else:
-        a, b, i = 0, 1, 1
-        while i < n:
+        a, b = 0, 1
+        while n > 1:
             a, b = b, a + b
-            i += 1
+            n -= 1
         return b
 
 
-n = int(input())
-print(calc_fib(n))
+if __name__ == '__main__':
+    n = int(input())
+    print(calc_fib(n))
