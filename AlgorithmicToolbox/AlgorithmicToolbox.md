@@ -1,4 +1,4 @@
-# [Algorithmic Toolbox](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/tree/master/AlgorithmicToolbox)
+# Algorithmic Toolbox
 
 - Programming Assignment 1: Maximum Pairwise Product
 
