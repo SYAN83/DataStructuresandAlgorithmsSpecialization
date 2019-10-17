@@ -1,4 +1,4 @@
-# 1. [Algorithmic Toolbox](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/tree/master/AlgorithmicToolbox)
+# [Algorithmic Toolbox](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/tree/master/AlgorithmicToolbox)
 
 - Programming Assignment 1: Maximum Pairwise Product
 
@@ -37,4 +37,14 @@
 
 - Programming Assignment 5: Dynamic Programming 1
 
+  1. Money Change Again: [change_dp.py](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/blob/master/AlgorithmicToolbox/week5_dynamic_programming1/1_money_change_again/change_dp.py)
+  2. Primitive Calculator: [primitive_calculator.py](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/blob/master/AlgorithmicToolbox/week5_dynamic_programming1/2_primitive_calculator/primitive_calculator.py)
+  3. Edit Distance: [edit_distance.py](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/blob/master/AlgorithmicToolbox/week5_dynamic_programming1/3_edit_distance/edit_distance.py)
+  4. Longest Common Subsequence of Two Sequences: [lcs2.py](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/blob/master/AlgorithmicToolbox/week5_dynamic_programming1/4_longest_common_subsequence_of_two_sequences/lcs2.py)
+  5. Longest Common Subsequence of Three Sequences: [lcs3.py](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/blob/master/AlgorithmicToolbox/week5_dynamic_programming1/5_longest_common_subsequence_of_three_sequences/lcs3.py)
+
 - Programming Assignment 6: Dynamic Programming 2
+
+  1. Maximum Amount of Gold: [knapsack.py](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/blob/master/AlgorithmicToolbox/week6_dynamic_programming2/1_maximum_amount_of_gold/knapsack.py)
+  2. Partitioning Souvenirs: [partition3.py](https://github.com/SYAN83/DataStructuresandAlgorithmsSpecialization/blob/master/AlgorithmicToolbox/week6_dynamic_programming2/2_partitioning_souvenirs/partition3.py)
+  3. Maximum Value of an Arithmetic Expression:
